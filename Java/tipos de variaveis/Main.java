@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        char umUnicoCharacter = "S";
+        char umUnicoCharacter = "J";
         String nomeCurso = "Curso Android";
         byte valor = 127;
         Short numero = 32000;
