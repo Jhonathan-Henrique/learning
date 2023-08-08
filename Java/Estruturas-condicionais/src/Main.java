@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
        /* int idadeJohn = 27;
-        int idadeJanny = 13;
+        int idadeJanny = 23;
 
         if (idadeJanny < 18) {
             System.out.println("Aqueta o faxo! vai namorar não!");
