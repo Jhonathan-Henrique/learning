@@ -5,7 +5,7 @@ public class Main {
         Carro fusca = new Carro();
         Carro onix = new Carro();
 
-        gol.movimentar();
-        gol.frear();
+        gol.movimentar(110);
+        gol.frear(4);
     }
 }

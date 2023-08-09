@@ -8,11 +8,11 @@ public class Carro {
 
 
     // Metodos
-    public void movimentar() {
-        System.out.println("O carro esta se movimentando");
+    public void movimentar(int velocidade ) { //parametro dentro do metodo
+        System.out.println("O carro esta se movimentando com a velocidade: " + velocidade + " KM/H");
     }
 
-    public void frear() {
-        System.out.println("O carro freou.");
+    public void frear(int tempo) {
+        System.out.println("O carro freou em " + tempo + " segundos");
     }
 }
