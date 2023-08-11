@@ -1,0 +1,12 @@
+android:text ="Ola mundo" : muda o texto
+android:textAllCaps = "true" : transforma tudo em maiusculo
+android:textSize = "18sp" : tamanho do texto
+android:background="#9877E8" : cor do fundo
+android:paddingEnd ="16dp" : espaçamento interno no final
+android:paddingBotton = "16dp" : espaçamento pra baixo
+android:padding = "16dp" : espaçamento interno par todos os lados
+android:paddingHorizontal = "8dp" aplica espaçamento apenas na horizontal
+android:paddingVertical="8dp" : aplica espaçamento apenas na vertical
+android:visibility="invisible" : ocuta o componente mas deixa em tela
+android:visibility="gone" : ocuta o componente da tela
+android:fontFamily="..." : altera a fonte utilizada.
