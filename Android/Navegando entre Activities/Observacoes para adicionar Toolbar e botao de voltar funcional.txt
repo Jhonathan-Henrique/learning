@@ -1,0 +1,17 @@
+Para adicionar uma toolbar na parte superior:
+ Basta ir em themas.xml res > values > themes > themes.xml
+
+e a tag Style em parent trocar Material3 por MaterialComponents. // e no final da linha colocar .DarkActionBar
+
+2 parte ===========================================
+
+com a toolbar adicionada pordemos adicionar o botao de voltar na toolbar, basta ir na onCreate e adicionar:
+
+getSupportActionBar().setDisplayHomeAsUpEnable(true);
+
+pronto botao de voltar na toolbar adicionado
+
+3 parte ===========================================
+
+Para o botao da toolbar de voltar funcionar devemos ir em manifest > AndroidManifest.xml
+na activity que queremos voltar colocamos android:parentActivityName = ".segundaActivity" adicionar a activity que quer voltar.
