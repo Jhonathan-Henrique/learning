@@ -9,7 +9,7 @@ public class Main {
         familia[0] = "Jhonathan";
         familia[1] = "Vera";
         familia[2] = "Ivanildo";
-        familia[3] = "Jany";
+        familia[3] = "Janny";
 
         for (String nome : familia){
             System.out.println(nome);
