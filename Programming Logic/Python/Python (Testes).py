@@ -14,3 +14,8 @@ qtde = int(input("Qual a quantidade do produto? "))
 preco = float(input("Qual o valor do produto? "))
 
 print(f"O produto {nome} tem {qtde} unidades,no valor de R$ {preco} a unidade.")
+
+#Se o Estoque de produto estiver abaixo de 50 exiba a frase "Estoque do produto esta muito baixo".
+if qtde < 50:
+    print("Estoque do produto esta muito baixo")
+else: print("Esta tudo bem")
