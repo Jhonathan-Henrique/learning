@@ -1,0 +1,6 @@
+4 pilares do pensamento computacional.
+
+1 - Decomposição: Pegamos o problema maior e dividimos em partes menores.
+2 - Reconhecimento de padrões: Verificar se determinada ação se repete no problema.
+3 - Abstração: Retirar oque não for necessario, deixar o problema mais abstrato possivel.
+4 - Algoritmo: Uma sequencia de passos finitos para solucionar determinado problema.
