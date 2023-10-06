@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.container h1 {
+    font-size: 50px;
+}
+
+nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+nav h1{
+    font-family: 'Special Elite', cursive;
+}
+
+nav ul li{
+    font-size: 30px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+article a:hover{
+    background-color: red;
+    transition: 2s;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    margin-left: 20px;
+    list-style-type: none;
+
+}
+
+body>header {
+    background-color: blueviolet;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.articles article img {
+    height: 180px;
+    border-radius: 25px;
+    border: 1px solid white;
+}
+
+#games-mobile {
+    background-color: #2e2787;
+    color: white;
+}
+
+#games-console {
+    background-color: #000000;
+    color: white;
+}
+
+#games-computador {
+    background-color: #003300;
+    color: white;
+}
+
+#compras .articles{
+    display: flex;
+    justify-content: space-around;
+}
+
+#compras h2{
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+
+article a {
+    background: green;
+    padding: 6px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    margin: 10px 0;
+}
