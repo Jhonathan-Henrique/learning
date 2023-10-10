@@ -17,13 +17,13 @@
         <div class="container">
             <h2>GAMES SHOP</h2>
             <nav>
-                <li><a href="#">SOBRE A LOJA</a></li>
-                <li><a href="#">CONTATO</a></li>
+                <li><a href="#about">SOBRE A LOJA</a></li>
+                <li><a href="#contacts">CONTATO</a></li>
             </nav>
         </div>
     </header>
 </body>
-<section>
+<section id="about">
     <div class="container">
         <img class="gameshop-front" src="./images/loja.jpg" alt="Fachada da Gameshop">
         <div>
@@ -42,19 +42,55 @@
         </div>
     </div>
 </section>
-<section id="contact">
+<section id="contacts">
     <div class="container">
         <h2>Contato</h2>
-        <div>
+        <div class="contacts-methods">
             <div>
                 <h3>Fale conosco</h3>
-                <input type="text" placeholder="Digite seu nome">
-                <input type="email" placeholder="Digite seu e-mail">
-                <input type="tel" placeholder="Digite seu telefone">
-                <textarea placeholder="Sua mensagem"></textarea>
+                <form>
+                    <input type="text" placeholder="Seu nome" required>
+                    <input type="email" placeholder="Seu email" required>
+                    <input type="tel" placeholder="Seu telefone (opcional)">
+                    <textarea placeholder="Sua mensagem" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div>
+                <h3>Nos acompanhe</h3>
+                <ul class="social-links">
+                    <li>
+                        <a href="#" title="Siga-nos no instagram">
+                            <img src="./images/instagram.png" alt="Logo do instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Siga-nos no Facebook">
+                            <img src="./images/facebook.png" alt="Logo do Facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Visite nosso canal do youtube">
+                            <img src="./images/youtube.png" alt="Logo do youtube">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3>Venha até nos</h3>
+                <p>
+                    Rua: Kotlin, n: 124 vila JAVA-SP
+                </p>
             </div>
         </div>
     </div>
 </section>
+<footer>
+    <div class="container">
+    <p>
+        &copy; Game Shop - Todos os direitos reservados - 2023
+    </p>
+</div>
+</footer>
 
 </html>

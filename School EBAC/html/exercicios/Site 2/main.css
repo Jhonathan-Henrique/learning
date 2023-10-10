@@ -7,14 +7,16 @@
 header {
     background-color: slateblue;
     color: white;
-    padding: 20px 0;
 }
 
-header h2 {
+header h2, 
+section h2, 
+section h3 {
     font-family: 'Bungee', cursive;
+    font-weight: normal;
 }
 
-body {
+body, input, textarea {
     font-family: 'Special Elite', cursive;
 }
 
@@ -66,4 +68,65 @@ nav li a{
 
 section .container {
     align-items: start;
+}
+
+.social-links img {
+    height: 24px;
+    
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+#contacts .container {
+    display: block;
+}
+
+.contacts-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+textarea,
+button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+height: 120px;
+resize: none;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: slateblue;
+    color: #fff;
+    padding: 20px 0;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(133, 119, 221);
+}
+
+footer {
+    background-color: slateblue;
+    color: #fff;
+    padding: 20px 0;
 }
