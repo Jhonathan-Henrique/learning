@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+/*Cabeçalho*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 h1 {
     font-family: 'Young Serif', serif;
 }
@@ -25,9 +33,6 @@ h2 {
 
 #cabecalho {
     background-color: rgb(145, 87, 199);
-    position: fixed;
-    width: 100%;
-    top: 0;
 }
 
 #cabecalho .container {
@@ -50,28 +55,35 @@ h2 {
     text-decoration: none;
 }
 
-/*Conteudo do site*/
+/*conteudo da pagina*/
 
-.conteudo__bloco-um,
-.conteudo__bloco-dois,
-.conteudo__bloco-tres{
-    margin: 50px 0;
+main .container {
     display: flex;
-    justify-content: space-between;
+    margin-top: 34px;
 }
 
-.conteudo__bloco-um img,
-.conteudo__bloco-dois img,
-.conteudo__bloco-tres img {
-    height: 200px;
+main .container img{
+    margin-right: 24px;
 }
 
-.banner {
-    margin-top: 24px;
-    width: 100%;
-    height: 400px;
+.container article p {
+    margin-bottom: 24px;
 }
 
+.links li{
+    display: inline;
+    cursor: pointer;
+    margin-left: 24px;
+}
+
+.links img {
+    height: 28px;
+
+}
+
+.container article {
+    margin-left: 24px;
+}
 /*Rodapé da página*/
 
 footer {

@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Young Serif', serif;
+}
+
+body {
+    background-color: #e5e5e5;
+}
+
+h2 {
+    margin: 24px 0;
+}
+
+/*Cabeçalho do site*/
+
+.container {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+#cabecalho {
+    background-color: rgb(145, 87, 199);
+}
+
+#cabecalho .container {
+    align-items: center;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+
+.cabecalho__menu-lista-item {
+    display: inline;
+    margin-left: 24px;
+}
+
+.cabecalho__menu-lista-item a {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/*formulario*/
+
+form {
+    margin-top: 300px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+form input, 
+textarea, 
+button {
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button {
+    background-color: #9157c7;
+    border: none;
+    padding: 14px 0;
+}
