@@ -89,3 +89,71 @@ footer {
     width: 100%;
     text-align: center;
 }
+
+/* Estilos padrão para telas maiores */
+@media screen and (min-width: 768px) {
+    .conteudo__bloco-um,
+    .conteudo__bloco-dois,
+    .conteudo__bloco-tres {
+        flex-direction: row;
+    }
+
+    .conteudo__bloco-um img,
+    .conteudo__bloco-dois img,
+    .conteudo__bloco-tres img {
+        height: 200px;
+    }
+}
+
+/* Estilos para telas menores (tablets) */
+@media screen and (max-width: 767px) {
+    .conteudo__bloco-um,
+    .conteudo__bloco-dois,
+    .conteudo__bloco-tres {
+        flex-direction: column;
+    }
+
+    .conteudo__bloco-um img,
+    .conteudo__bloco-dois img,
+    .conteudo__bloco-tres img {
+        width: 100%;
+        height: auto;
+    }
+
+    .banner {
+        height: 200px;
+        object-fit: cover;
+    }
+
+    #cabecalho .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cabecalho__menu-lista-item {
+        margin: 10px 0;
+    }
+
+    footer {
+        font-size: 18px;
+    }
+}
+
+/* Estilos para telas menores (celulares) */
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .cabecalho__menu-lista-item a {
+        font-size: 16px;
+    }
+
+    footer {
+        font-size: 16px;
+    }
+}
+
+
+
+

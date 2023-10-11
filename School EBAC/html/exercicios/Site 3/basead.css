@@ -4,14 +4,6 @@
     box-sizing: border-box;
 }
 
-/*Cabeçalho*/
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 h1 {
     font-family: 'Young Serif', serif;
 }
@@ -24,15 +16,15 @@ h2 {
     margin: 24px 0;
 }
 
-/*Cabeçalho do site*/
-
 .container {
     max-width: 1366px;
     margin: 0 auto;
+    padding: 0 20px; /* Adicionando um padding para o conteúdo não ficar grudado nas bordas */
 }
 
 #cabecalho {
     background-color: rgb(145, 87, 199);
+    padding: 0 20px; /* Adicionando padding para o cabeçalho */
 }
 
 #cabecalho .container {
@@ -55,49 +47,32 @@ h2 {
     text-decoration: none;
 }
 
-/*conteudo da pagina*/
+/* Conteúdo da página */
 
 main .container {
-    display: flex;
-    margin-top: 34px;
+    flex-direction: column;
 }
 
-main .container img{
-    margin-right: 24px;
-}
-
-.container article p {
-    margin-bottom: 24px;
-}
-
-.links li{
-    display: inline;
-    cursor: pointer;
-    margin-left: 24px;
-}
-
-.links img {
-    height: 28px;
-
+main .container img {
+    width: 100%; /* Fazendo a imagem ocupar 100% da largura do seu contêiner */
+    max-width: 100%;
+    height: auto; /* Garantindo que a proporção da imagem seja mantida */
+    margin-bottom: 20px; /* Adicionando margem inferior à imagem */
 }
 
 .container article {
-    margin-left: 24px;
+    margin-left: 0; /* Removendo a margem esquerda para o artigo */
 }
-/*Rodapé da página*/
+
+/* Rodapé */
 
 footer {
-    align-items: center;
     background-color: rgb(145, 87, 199);
     color: white;
-    font-size: 24px;
-    margin-top: 24px;
+    font-size: 18px; /* Reduzindo o tamanho da fonte no rodapé */
     padding: 20px 0;
-    bottom: 0;
-    position: fixed;
-    width: 90%;
-    text-align: center;
     position: fixed;
     width: 100%;
+    bottom: 0;
     text-align: center;
 }
