@@ -7,6 +7,8 @@
 
 
 .aside {
+    display: flex;
+    flex-direction: column;
     width: 220px;
 }
 
@@ -16,7 +18,7 @@
     padding: 20px;
 }
 
-.aside__list ul li {
-    
-}
-
+.aside__list > li {
+    border-bottom: 1px solid rgb(206, 198, 198);
+    padding: 7px 14px;
+} 
