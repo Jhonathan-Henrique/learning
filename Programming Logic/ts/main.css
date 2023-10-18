@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.aside {
+    width: 220px;
+}
+
+.aside > h2 {
+    background: #F28941;
+    color: #fff;
+    padding: 20px;
+}
+
+.aside__list ul li {
+    
+}
+
