@@ -9,47 +9,125 @@
 </head>
 
 <body>
-  <section class="container">
-
-    <header>
-      <nav>
-        <div class="aside">
-          <h2>SLACA 2019</h2>
-          <img src="./assets/dewey 4.png" alt="#" class="img">
-          <aside>
-            <ul class="aside__list">
-              <li><a href="#">Apresentação</a></li>
-              <li><a href="#">Comitês</a></li>
-              <li><a href="#">Autores</a></li>
-              <li><a href="#">Eixos temáticos</a></li>
-              <li><a href="#">Trabalhos</a></li>
-              <li><a href="#">Contato</a></li>
-            </ul>
-          </aside>
-        </div>
-        <div class="title">
-          <div class="title-text">
-            <p>Anais do simpósio Latino Americano de Alimentos</p>
-            <h3>Anais do 13 Simpósio Latino Americano de Ciência de Alimentos</h3>
-            <p>ISSN: 1234-5678</p>
-          </div>
-          <select class="language">
-            <option value="PT,BR">PT,BR</option>
-          </select>
-          <div class="perfil">
-            <p>Bem vindo!</p>
-            <p>alguem12@gaboscience.com</p>
-            <img src="img/user.png" alt="#" id="user">
-          </div>
-        </div>
+  <div class="tudao">
+    <!--Parte do Aside-->
+    <aside class="menu-lateral">
+      <h2>SLACA 2019</h2>
+      <img src="./assets/dewey 4.png" alt="#" class="img">
+      <nav class="menu-lateral">
+        <ul class="aside__list">
+          <li><a href="#">Apresentação</a></li>
+          <li><a href="#">Comitês</a></li>
+          <li><a href="#">Autores</a></li>
+          <li><a href="#">Eixos temáticos</a></li>
+          <li><a href="#">Trabalhos</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
       </nav>
-    </header>
+    </aside>
 
-      <div class="container-2">
-        <section>
-          <h2>Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do município de Campinas/SP </h2>
-        </section>
-      </div>
+    <!--Parte do titulo e conteudo-->
+    <main class="conteudo__principal">
+      <header class="titulo">
+        <div class="header__text">
+          <p>Anais do simpósio Latino Americano de Alimentos</p>
+          <h2>Anais do 13 Simpósio Latino Americano de Ciência de Alimentos</h2>
+          <span>ISSN: 1234-5678</span>
+        </div>
+        <select class="language">
+          <option value="PT-BR">PT,BR</option>
+        </select>
+        <div class="header__perfil">
+          <p>Bem vindo!</p>
+          <p>alguem123@gmail.com</p>
+        </div>
+        <img class="header__img" src="./img/image.png" alt="Foto do usuário">
+      </header>
+    
+      <!--container-->
+      <div class="container">
+      <!--Parte do conteudo principal-->
+      <section class="analise">
+        <div class="analise__video">
+          <h2>Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do município
+            de Campinas/SP </h2>
+          <img src="./img/dewey 1.png" alt="Imagem do mar">
+        </div>
+        <div class="analise__detalhes">
+          <div class="botoes">
+            <button id="btn-download">Download</button>
+            <button id="btn_favorite">*</button>
+            <button id="btn-doi">doi</button>
+            <br>
+            <p>COMO CITAR ESSE TRABALHO?</p>
+          </div>
+
+          <!--Menu lateral Detalhes da direita-->
+          <div class="detalhes estiloH2">
+            <h2 class="titulo_sessao">Detalhes</h2>
+            <p>Tipo de Apresentação: <strong>Pôster</strong></p>
+            <p>Eixo temático: <strong>Alimentação e saúde(AS)</strong></p>
+            <p>Palavras-chaves: <strong>Alimentos funcionais, alimentação escolar</strong></p>
+            <br>
+            <h3>Autores:</h3>
+            <p>Galileo Galilei</p>
+            <p>Berta Lange de Morretes</p>
+            <p>Isaac Newton</p>
+            <p>Cesar Lattes</p>
+            <p>Stephen Hawking</p>
+
+            <span>Universidade Estadual de Campinas</span>
+            <span>Universidade de São Paulo</span>
+            <span>Instituto Nacional de Pesquisas Espaciais</span>
+            <span>Universidade Federal do Rio de Janeiro</span>
+          </div>
+      </section>
+
+      <!--Sessão de Resumo-->
+      <section class="resumo estiloH2">
+        <h2 class="titulo_sessao">Resumo</h2>
+        <div><p>Lorem ips<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat non, qui dolor alias laboriosam ab autem
+          nisi eveniet nostrum ad molestias illo id sint voluptates facere consequatur nihil quibusdam repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ratione, nemo laudantium id ut sapiente eligendi soluta sint impedit harum dicta officia illo modi totam inventore omnis eaque officiis? Accusamus.
+          <span class="ver_mais">ver mais</span></p>
+        </section>    </section>
+      <section class="discussoes estiloH2">
+        <h2 class="titulo_sessao">Discussões</h2>
+        <h3 class="duvidas">Compartilhe suas ideias ou dúvidas com os autores</h3>
+        <p>Sabia que o maior estimulo no desenvolvimento cientifico e cultural é a curiosidade? Deixe seus questionamentos ou sugestões para o autor</p>   
+        
+
+        <!--Cards de perguntas-->
+        <div class="pergunta">
+          <h3 class="titulo_pergunta">Assunto da pergunta aparece aqui</h3>
+          <h4 class="autor_pergunta">Carlos Henrique Santos</h4>
+          <p class="pergunta-texto">Comecinho da pergunta aparece aqui resente relata inscreve-se no campo da anaálise da dimensão e ampacto de processo formativo situado impacto de prcesso formativo processo.</p>
+        <div class="pergunta_icones">
+            <img src="" alt="tres-bolinhas">
+            <img src="" alt="coracao">
+            <p class="pergunta_likes">1 like</p>
+            <p class="pergunta_respostas">1 resposta</p>
+          </div>
+          </div>
+
+        <div class="pergunta">
+          <h3 class="titulo_pergunta">Assunto da pergunta aparece aqui</h3>
+          <h4 class="autor_pergunta">Carlos Henrique Santos</h4>
+          <p class="pergunta-texto">Comecinho da pergunta aparece aqui resente relata inscreve-se no campo da anaálise da dimensão e ampacto de processo formativo situado impacto de prcesso formativo processo.</p>
+          <div class="pergunta_icones">
+            <img src="" alt="tres-bolinhas">
+            <img src="" alt="coracao">
+            <p class="pergunta_likes">1 like</p>
+            <p class="pergunta_respostas">1 resposta</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <img src="" alt="Galoá anais e proceedings">>
+    </footer
+  </section>
+ 
+  </div>>
+</div>
 </body>
-
 </html>

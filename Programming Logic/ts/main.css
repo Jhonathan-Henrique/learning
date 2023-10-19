@@ -4,69 +4,31 @@
     box-sizing: border-box;
     color: #725C5C;
     font-family: Roboto, 'sanserif';
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
-/*Container global*/
+/*Tudo*/
+
+.tudao {
+    display: flex;
+    max-width: 1366px;
+    margin: 0 auto;
+    width: 100%;
+}
 
 .container {
-    max-width: 1366px;
-    width: 100%;
-    margin: 0 auto;
+    padding: 24px;
 }
 
-.container-2{
-    width: 1059px;
-    height: 1382px;
-    border: 2px solid red;
-}
+/*Aside lateral e suas variáveis*/
 
-header{
-    display: flex;
-}
-
-/*Navegação geral*/
-
-nav {
-    display: flex;
-}
-
-/*Texto do cabeçalho*/
-
-.title{
-    align-items: center;
-    background: #FDF1EB;
-    display: flex;
-    justify-content: space-between;
-    width: 1146px;
-    height: 68px;
-}
-
-.title-text {
-    padding: 0 24px;
-}
-
-/*Seletor de idiomas*/
-
-.language {
-    margin-right: 15px;
-    width: 97px;
-    height: 34px;
-}
-
-/*Aside lateral*/
-
-.aside {
+aside {
     display: inline-block;
     width: 220px;
     box-shadow:0px 2px 5px 0px black;
     height: 1700px;
 }
 
-.aside > h2 {
+aside > h2 {
     background: #F28941;
     color: #fff;
     padding: 20px;
@@ -83,3 +45,129 @@ nav {
     text-decoration: none;
 }
 
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Header-perfil*/
+
+.titulo {
+    align-items: center;
+    background: #FDF1EB; 
+    display:flex;
+    height: 68px;
+    justify-content: space-between;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.header__perfil {
+    text-align: end;
+    padding-right: 8px;
+}
+
+.header__img {
+    border-radius: 50%;
+}
+
+/*idioma*/
+
+.language {
+    width: 97px;
+    height: 34px;
+    background: #FDF1EB;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+/*Parte do conteudo principal*/
+
+.analise {
+    
+    display: flex;
+}
+
+.analise > .analise__video > h2{
+    color: #ED7839;
+    margin-bottom: 24px;
+    width: 786px;
+}
+
+
+/*Botões*/
+
+.botoes > p {
+    padding: 10px 0;
+}
+
+#btn-download {
+    width: 120px;
+    height: 31px;
+    margin-left: 10px;
+    background-color:#ED7839 ;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+#btn_favorite {
+    width: 43px;
+    height: 31px;
+    background-color:#ED7839 ;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+#btn-doi {
+    width: 43px;
+    height: 31px;
+    background-color:#ED7839 ;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+/*Detalhes*/
+.detalhes {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Resumos*/
+
+.resumo {
+    border: 1px solid #000;
+}
+
+.estiloH2 {
+    padding: 20px;
+}
+
+.titulo_sessao {
+    font-size: 20px;
+}
+
+/*Discurssões*/
+
+.discussoes {
+    border: 1px solid #000;
+}
+
+
+.estiloH2 > h2 {
+    background-color:#FDF1EB ;
+    padding: 8px;
+}
+
+.estiloH2 > .duvidas {
+    color: #ED7839 ;
+}
+
+/*titulo_sessao*/
+
+.titulo_sessao {
+    margin-bottom: 20px;
+}
