@@ -1,12 +1,12 @@
 const form = document.getElementById('form-validacao')
 
 function validaFormulario(){
-    let numeroA = document.getElementById('numeroA')
-    let numeroB = document.getElementById('numeroB')
-    if (numeroA.value < numeroB.value) { 
-        alert ('Seu formulario e valido') 
-    } else {
+    let campoA = document.getElementById('campoA')
+    let campoB = document.getElementById('campoB')
+    if (campoA.value < campoB.value) { 
         alert ('Seu formulario nao e valido')
+    } else {
+        alert ('Seu formulario e valido') 
     }
 }
 
