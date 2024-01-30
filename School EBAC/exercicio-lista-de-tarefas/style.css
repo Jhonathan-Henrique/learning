@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Single Day', cursive;
+}
+
+body { 
+    background: lightblue;
+}
+
+.img-tontoro {
+   position: absolute;
+   height: 150px;
+   left: 750px;
+   bottom: 700px;
+}
+
+.container {
+    display: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 200px;
+    background: lightsalmon;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px black;;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+form {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form input, button {
+    padding: 10px;
+    border: none;
+}
+
+form input {
+    margin-right: 10px;
+}
+
+form button {
+    background: lightcyan;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: rgb(96, 184, 96);
+    transition: 2s;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+}
+
+ul li {
+    font-size: 20px;
+    list-style: none;
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+#lista li.concluido {
+    text-decoration: line-through;
+}
+
+@media (max-width: 600px) {
+    .img-tontoro {
+        position: absolute;
+        height: 20vw; /* ou outra unidade relativa */
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 70vh; /* ou outra unidade relativa */
+    }
+    
+  }
